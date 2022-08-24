@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- <script>alert("Ready to calculate");</script> -->
+    <link rel="stylesheet" href="./assets/styles/try.css" />
+</head>
+
+<body>
+    <div id="cardouter">
+        <div class="card m-5">
+            <div class="card text-white " id="card1">
+                <h5 class="card-header text-center">
+                    Calculator
+                </h5>
+            </div>
+            <div class="card-body ">
+                <section id="calculator">
+                    <input type="number" id="input-number" />
+                    <div class="calc-actions pt-3" style="margin-left:33%">
+                        <button type="button" id="btn-add">+</button>
+                        <button type="button" id="btn-subtract">-</button>
+                        <button type="button" id="btn-multiply">x</button>
+                        <button type="button" id="btn-divide">/</button>
+                    </div>
+                </section>
+
+                <section id="results">
+                    <h2 id="current-calculation">0</h2>
+                    <h2>Result:<span id="current-result">0</span></h2>
+                </section>
+
+            </div>
+            <div class="card-footer text-muted" id="card1">
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/scripts/vendor1.js"></script>
+    <script src="assets/scripts/app1.js"></script>
+
+</body>
+
+</html>
